@@ -11,8 +11,8 @@ import logging
 from subprocess import call
 import os
 
-telegramID = 344927076
-BotToken = '523012190:AAH5LC7unWIN4k9qMbc2IIPRGLdZKXj7ag4'
+telegramID = your id
+BotToken = 'your token'
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
 	level=logging.INFO)
