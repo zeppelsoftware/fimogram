@@ -14,12 +14,11 @@ fimogram is made for home network monitoring. It is combined with Telegram so yo
 
 ##Documentation
 
-general
+cmd|description
 ------------ | -------------
 /help | show help
 /start | start bot
-Network monitoring
------------- | -------------
 /sscan | simple network scan
 /ascan | advanced network scan
 /fscan | full network scan
+/check [hostname/WebURL/IP] | check if device/website is online
