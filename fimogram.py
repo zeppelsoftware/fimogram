@@ -108,7 +108,7 @@ def help(bot, update):
 		#ignore
 		print "unknown user"
 	else:
-		bot.sendMessage(telegramID, 'Available commands: \n/start - start bot\n/sscan - simple network scan\n/ascan - advanced network scan\n/fscan - full network scan\n/check [hostname/IP] - Check if a device is online.')
+		bot.sendMessage(telegramID, 'Available commands: \n/start - start bot\n/sscan - simple network scan\n/ascan - advanced network scan\n/fscan - full network scan\n/check [hostname/IP/WebURL] - Check if a device is online.')
 
 def echo(bot, update):
 	update.message.reply_text('Sorry, please use /help or check on github.com/b3zi/fimogram')
