@@ -1,2 +1,2 @@
 # fimogram
-Fimogram - Fing Monitoring Telegram
+FiMoGram - Fing Monitoring Telegram
