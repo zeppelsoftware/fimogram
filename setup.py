@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #@uthor b3zi / lucamayer
-#telegram: @lucamayer
+#telegram: @zeppel
 #github.com/b3zi/fimogram
 #!Linux base application
 #setup
