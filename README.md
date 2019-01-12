@@ -6,7 +6,7 @@ fimogram is made for home network monitoring. It is combined with Telegram so yo
 
 ## Installation
 
-1. `git clone https://github.com/b3zi/fimogram.git`
+1. `git clone https://github.com/zeppelsoftware/fimogram.git`
 2. `sudo python setup.py <your TelegramID> <your TelegramBotToken>`
     1. For TelegramID message [@getchat_idbot](http://t.me/getchat_idbot)
     2. For BotToken message [@BotFather](http://t.me/botfather)
