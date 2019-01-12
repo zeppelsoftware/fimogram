@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #@uthor b3zi / lucamayer
 #telegram: @zeppel
-#github.com/b3zi/fimogram
+#github.com/zeppelsoftware/fimogram
 #!Linux base application
 import re
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
@@ -27,7 +27,7 @@ def start(bot, update):
 	userid = int(format(update.message.from_user['id']))
 	print userid
 	print telegramID
-	update.message.reply_text('Whatup :D networkmonitoring bot by b3zi (C) github.com/b3zi/fimogram ')
+	update.message.reply_text('Whatup :D networkmonitoring bot by b3zi (C) github.com/zeppelsoftware/fimogram ')
 	if userid != telegramID:
 		update.message.reply_text('Hello '+starter+'. I am sorry, you are not the hoster of this bot. That is the reason why you are blocked from now on.')
 		
@@ -103,7 +103,7 @@ def isOnline(bot, update, args, job_queue, chat_data):
 			bot.sendMessage(telegramID, device+" is not available.")
 
 def help(bot, update):
-	update.message.reply_text('FIMOGRAM - github.com/b3zi/fimogram - Simply text @lucamayer for help')
+	update.message.reply_text('FIMOGRAM - github.com/zeppelsoftware/fimogram - Simply text @lucamayer for help')
 	if int(format(update.message.from_user['id'])) != telegramID:
 		#ignore
 		print "unknown user"
@@ -111,7 +111,7 @@ def help(bot, update):
 		bot.sendMessage(telegramID, 'Available commands: \n/start - start bot\n/sscan - simple network scan\n/ascan - advanced network scan\n/fscan - full network scan\n/check [hostname/IP/WebURL] - Check if a device is online.')
 
 def echo(bot, update):
-	update.message.reply_text('Sorry, please use /help or check on github.com/b3zi/fimogram')
+	update.message.reply_text('Sorry, please use /help or check on github.com/zeppelsoftware/fimogram')
 	
 def error(bot, update, error):
 	logger.warning('Update "%s" caused error "%s"', update, error)
