@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*-
 #@uthor b3zi / lucamayer
 #telegram: @zeppel
-#github.com/b3zi/fimogram
+#github.com/zeppelsoftware/fimogram
 #!Linux base application
 #setup
 import sys
 from subprocess import call
 
 def main():
-	print "fimogram by b3zi"
-	print "github.com/b3zi/fimogram"
+	print "fimogram by zeppel"
+	print "github.com/zeppelsoftware/fimogram"
 	print "-------------------------"
 	print "creating fimo.config"
 	print "Telegram ID: "+sys.argv[1]
