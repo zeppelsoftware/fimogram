@@ -4,6 +4,8 @@
 ## What is it?
 fimogram is made for home network monitoring. It is combined with Telegram so you can easy access your home network from all over the world without an additional app.
 
+Since you need to run your own Telegram bot it is useful to use a rasperry pi or something similar so your pc doesn't has to be up running all the time.
+
 ## Installation
 
 1. `git clone https://github.com/zeppelsoftware/fimogram.git`
